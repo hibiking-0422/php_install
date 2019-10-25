@@ -4,9 +4,9 @@
 vagrant(https://www.vagrantup.com/)とvirtualbox(https://www.virtualbox.org/)はあらかじめ入れといてね
 -----------------------------------------------------------------------
 たった３回コマンドを打つだけでおけ！
-$https://raw.githubusercontent.com/hibiking-0422/php_install/master/php_install.bat
+$curl -O https://raw.githubusercontent.com/hibiking-0422/php_install/master/php_install.bat
 $php_install.bat
-$bash <(curl -s https://raw.githubusercontent.com/hibiking-0422/rails_install.sh/master/rails6.0_install.sh)
+$bash <(curl -s https://raw.githubusercontent.com/hibiking-0422/php_install/master/php_install.sh)
 -----------------------------------------------------------------------
 commentout
 

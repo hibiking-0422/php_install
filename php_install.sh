@@ -75,6 +75,7 @@ sudo yum install -y mysql-devel
 
 -----------php初期設定-----------------
 1.php.iniを当リポジトリのものに変更
+# sudo wget  https://raw.githubusercontent.com/hibiking-0422/php_install/master/php.ini
 
 2. /etc/httpd/conf/httpd.conf
 以下のAllowOverrideをAllに書き換える。

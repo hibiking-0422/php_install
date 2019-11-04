@@ -73,6 +73,12 @@ sudo yum install -y mysql-devel
 
 <<commentout
 
+----------apach初期設定---------------
+1.基本設定
+https://www.rem-system.com/centos-httpd-inst/
+2.セキュリティ設定
+https://www.rem-system.com/apache-security01/
+
 -----------php初期設定-----------------
 1.php.iniを当リポジトリのものに変更
 # sudo wget  https://raw.githubusercontent.com/hibiking-0422/php_install/master/php.ini
@@ -101,11 +107,3 @@ mysql>grant all on *.* to '[ユーザ名]'@'[ホスト名]';
 #ユーザに権限付与(とりあえず全部与えとく)
 
 commentout
-
-
-
-
-
-
-
-

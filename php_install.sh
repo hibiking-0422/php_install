@@ -34,6 +34,7 @@ sudo firewall-cmd --reload
 #apach install
 sudo yum install -y httpd
 sudo systemctl enable httpd.service
+sudo yum -y install httpd httpd-tools httpd-devel httpd-manual
 
 #php install
 sudo yum install -y epel-release

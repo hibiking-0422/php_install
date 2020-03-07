@@ -44,14 +44,6 @@ yum list
 sudo yum install -y --enablerepo=remi-php73 php php-gd php-intl php-json php-mysqlnd php-mbstring php-xml
 php -m | grep -e intl -e mbstring -e SimpleXML
 
-#mysql
-#mysql
-sudo yum remove -y mariadb-libs
-sudo yum localinstall -y https://dev.mysql.com/get/mysql80-community-release-el7-2.noarch.rpm
-sudo yum install -y mysql-community-server
-sudo systemctl start mysqld
-sudo systemctl enable mysqld
-
 #mysql -v 0.5.2
 #mysql
 sudo yum remove -y mariadb-libs
@@ -59,18 +51,6 @@ sudo yum localinstall -y https://dev.mysql.com/get/mysql80-community-release-el7
 sudo yum install -y mysql-community-server
 sudo systemctl start mysqld
 sudo systemctl enable mysqld
-
-
-#mysql
-sudo yum remove -y mariadb-libs
-sudo yum localinstall -y https://dev.mysql.com/get/mysql80-community-release-el7-2.noarch.rpm
-sudo yum install -y mysql-community-server
-sudo systemctl start mysqld
-sudo systemctl enable mysqld
-
-#mysql -v 0.5.2
-sudo yum install -y mysql-devel
-
 
 <<commentout
 
